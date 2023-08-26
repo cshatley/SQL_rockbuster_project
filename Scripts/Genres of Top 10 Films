@@ -1,0 +1,12 @@
+The following script was used to create visuals seen in the Rockbuster Presentation slide 10.
+
+SELECT  C.name AS genre,
+        SUM(F.amount) AS total_revenue
+FROM film A
+INNER JOIN film_category B ON A.film_id = B.film_id
+INNER JOIN category C ON B.category_id = C.category_id
+INNER JOIN inventory D ON A.film_id = D.film_id
+INNER JOIN rental E ON D.inventory_id = E.inventory_id
+INNER JOIN payment F ON E.rental_id = F.rental_id
+GROUP BY C.name
+ORDER BY SUM(F.amount) DESC
