@@ -1,0 +1,9 @@
+The following script was used to create visuals seen in the Rockbuster Presentation slide 12.
+
+SELECT  C.name AS genre,
+        AVG(A.rental_duration) AS avg_rental_duration
+FROM film A
+INNER JOIN film_category B ON A.film_id = B.film_id
+INNER JOIN category C ON B.category_id = C.category_id
+GROUP BY C.name
+ORDER BY AVG(A.rental_duration) DESC
