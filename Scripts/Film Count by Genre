@@ -1,0 +1,9 @@
+The following script was used to create visuals seen in the Rockbuster Presentation slide 11.
+
+SELECT  C.name AS genre, 
+        COUNT(DISTINCT A.film_id) AS film_count
+FROM film A
+INNER JOIN film_category B ON A.film_id = B.film_id
+INNER JOIN category C ON B.category_id = C.category_id
+GROUP BY C.name
+ORDER BY film_count DESC
