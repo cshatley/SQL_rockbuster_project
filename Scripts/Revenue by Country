@@ -1,4 +1,4 @@
-**The following script was used to create visuals seen in the Rockbuster Presentation slides 4 and 5.**
+The following script was used to create visuals seen in the Rockbuster Presentation slides 4 and 5.
 
 SELECT 	D.country,
 	SUM(E.amount) AS total_revenue
