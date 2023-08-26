@@ -26,3 +26,6 @@ Genres of Top 10 Films
 Film Count by Genre
 
 Rental Duration by Genre
+
+## Tableau
+(https://public.tableau.com/app/profile/courtney.shatley/viz/Task3_10RockbusterStealth/Map)
