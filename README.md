@@ -1,4 +1,4 @@
-# SQL Rockbuster Project
+# Rockbuster Project
 
 ### Objective
 Assist in the launch of an online video rental service by analyzing historical sales data.
