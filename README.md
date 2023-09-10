@@ -3,7 +3,7 @@ CareerFoundry project analyzing Rockbuster data via SQL and Tableau.
 
 ## Files
 
-SQL_Project_Brief
+Rockbuster_Project_Brief
 
 Data Dictionary
 
