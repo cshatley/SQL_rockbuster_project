@@ -13,6 +13,8 @@ PowerPoint presentation featuring analysis from SQL and visuals from Tableau.
 
 Rockbuster_Project_Brief
 
+Project Portfolio (starting slide 15)
+
 Data Dictionary
 
 Rockbuster Presentation
